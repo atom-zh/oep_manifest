@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+		<remote name="RTT" fetch="https://github.com/RT-Thread"/>
+		<project path="rt-thread" name="kernel" revision="master" remote="RTT"/>
+
+</manifest>
