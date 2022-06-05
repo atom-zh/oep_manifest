@@ -6,4 +6,5 @@
 		<remote name="OEP" fetch="https://github.com/atom-zh"/>
 		<project path="platform" name="Open_Embedded_Platform" revision="master" remote="OEP"/>
 		<project path="build" name="oep_build" revision="master" remote="OEP"/>
+		<project path="tools" name="oep_tools" revision="master" remote="OEP"/>
 </manifest>
