@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-		<remote name="RTOS" fetch="https://github.com/STMicroelectronics"/>
+		<remote name="RTOS" fetch="git@github.com:STMicroelectronics"/>
 		<project path="kernel" name="stm32_mw_freertos" revision="master" remote="RTOS"/>
 
 		<remote name="OEP" fetch="git@github.com:atom-zh/atom-zh"/>
