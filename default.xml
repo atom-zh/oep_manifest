@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-		<remote name="RTOS" fetch="git@github.com:STMicroelectronics"/>
+		<remote name="RTOS" fetch="https://github.com/STMicroelectronics"/>
 		<project path="kernel" name="stm32_mw_freertos" revision="master" remote="RTOS"/>
 
-		<remote name="OEP" fetch="git@github.com:atom-zh/atom-zh"/>
+		<remote name="OEP" fetch="https://github.com/atom-zh"/>
 		<project path="platform" name="Open_Embedded_Platform" revision="master" remote="OEP"/>
 		<project path="build" name="oep_build" revision="master" remote="OEP"/>
 		<project path="tools" name="oep_tools" revision="master" remote="OEP"/>
